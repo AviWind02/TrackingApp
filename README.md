@@ -60,14 +60,6 @@
 - **Namecheap Hosting** for server setup to receive GEO-location data
 - Required Android permissions: `READ_CALL_LOG`, `READ_SMS`, `ACCESS_FINE_LOCATION`, `WRITE_EXTERNAL_STORAGE`
 
-### Installation:
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/trackingapp.git
-   ```
-2. Open the project in **Android Studio**.
-3. Build and install the app on an Android device.
-4. Grant the required permissions for SMS, Call, and GEO-location tracking.
 
 ### Usage:
 - Upon launching, the app will begin collecting **SMS** and **Call logs**, which are saved locally in JSON files.
