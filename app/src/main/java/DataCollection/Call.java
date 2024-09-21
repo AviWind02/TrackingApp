@@ -58,7 +58,7 @@ public class Call {
                     try {
                         // Create a JSON entry for this call
                         JSONObject callEntry = new JSONObject();
-                        callEntry.put("contact_name", number);  // Replace with contact lookup if available
+                        callEntry.put("contact_name", number);
                         callEntry.put("type", callType);
                         callEntry.put("duration", duration);
 

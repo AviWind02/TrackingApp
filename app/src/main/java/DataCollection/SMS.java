@@ -41,8 +41,7 @@ public class SMS {
 
                     // Determine if it's received or sent
                     String messageType = type.equals("1") ? "received" : "sent";
-                    String contactName = messageType.equals("sent") ? "Me" : address;  // Replace with contact name lookup if available
-
+                    String contactName = messageType.equals("sent") ? "Me" : address;  // Replace with contact name lookup later
                     try {
                         // Create an entry for this SMS
                         JSONObject smsEntry = new JSONObject();
